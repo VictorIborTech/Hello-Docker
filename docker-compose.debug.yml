@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hellodocker:
+    image: hellodocker
+    build:
+      context: .
+      dockerfile: ./Dockerfile
